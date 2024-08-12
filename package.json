@@ -29,7 +29,7 @@
     "test": "echo ❗ No tests, previous tests were moved to the `nextra` package",
     "types": "tsup --dts-only",
     "types:check": "tsc --noEmit",
-    "postInstall": "pnpm build:all"
+    "prepare": "pnpm build:all"
   },
   "peerDependencies": {
     "next": ">=9.5.3",
