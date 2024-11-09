@@ -27,7 +27,8 @@
     "prepublishOnly": "pnpm build:all",
     "test": "vitest run",
     "types": "tsup --dts-only",
-    "types:check": "tsc --noEmit"
+    "types:check": "tsc --noEmit",
+    "prepare": "pnpm build:all"
   },
   "peerDependencies": {
     "next": "^15.0.3",
